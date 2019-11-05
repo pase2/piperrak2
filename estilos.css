@@ -1,0 +1,308 @@
+@font-face {/**Fuente para el titulo **/
+  font-family: titulo;
+  src:url(titulo.otf);
+}
+#todo{
+width: 90%;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+margin:0 auto;
+max-width: 1600px;
+min-width: 1000px;
+padding:2em;
+overflow: hidden;
+background:url("https://www.uniradioserver.com/media/news_thumbs/201902/20190226074854_179.jpg");
+background-size: cover;
+height: auto;
+font-family: arial;
+}
+#todo #cabecera{ /**Caja con logo y titulo **/
+	height: 120px;
+	padding:1.5em;
+	background-color: rgba(20,23,23,0.5);
+}
+#todo #cabecera #logo{
+	float: right;
+	height: 120px;
+	margin-right: 10px;
+	width: 150px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+#todo #cabecera #titulo{
+width: 75%;
+text-align:center;
+float:left;
+
+ }
+ #todo #cabecera #titulo h1{
+ 	color:rgba(0,110,255,0.8);
+ 	font-size: 300%;
+ 	font-family: titulo;
+ 	text-shadow:2px 2px rgba(255,255,255,0,8);
+ }
+
+#todo #cabecera #logo #foto1 { 
+	width: 80%
+}
+
+#todo #menu{
+	height: 60px;
+	
+}
+#menu #lista {
+	list-style:none;
+	text-align:left;
+	display: block;
+}
+#menu #lista li{ /**lista horizontal **/
+	background: #000000;
+	border: solid;
+	border-radius: 1em 1em 1em 1em;
+	display:inline-block;
+	padding:1em;
+	vertical-align:top;
+	margin-left:25px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+
+}
+a:hover{color:#ff56b6;}
+#contenido{
+	margin-top: 20px;
+	width:100%;
+	overflow: hidden;
+}
+
+#contenido #contenido1{
+	padding: 1em;
+	width: 45%;
+	float:left;
+	
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;	
+}
+#contenido #contenido1 form{ /**Formulario **/
+	font-size: 20px;
+}
+#contenido #contenido1 form h5{
+	font-style:oblique;
+	
+}
+
+
+#contenido #contenido2 #mapa{
+	margin-top: 1px;
+	width: 35%;
+	height: 700px;
+	float:left;
+
+}
+#contenido #contenido2 #publicidad{ 
+float:right;
+margin-top: 5px;
+height: 700px;
+width: 15%;
+}
+	
+
+#todo #pie{
+	width:94.5%;
+	overflow:hidden;
+	margin-top:20px;
+	padding:2em;
+
+}
+#todo #pie #contacto{
+margin-left: 2em;
+color:white;
+width: 20%;
+float: left;
+font-size: 1.5em;
+}
+#todo #pie #redes_sociales{ /**Cuadro con iconos redes **/
+
+color:white;
+width: 10%;
+float: right;
+}
+
+#todo #pie #redes_sociales #twitter{
+width: 45%;
+}
+#todo #pie #redes_sociales #facebook{
+	width: 45%;
+}
+#todo #quienessomos{
+	font-size: 2em;
+	text-align: center;
+	color:white;
+}
+ #todo #catalogo{
+	font-size: 3em;
+	text-align: center;
+	color:rgba(255,255,255,0.8);
+	text-shadow: 2px 2px #999;
+	margin-bottom: 40px;	
+}
+#todo #pc1 {
+	width: 45%;
+	float:left;
+	
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;
+	text-align:center;
+}
+#todo #pc1 #textopc1 {text-align:left;
+margin-left: 40px; }
+#todo #pc2 {
+	
+	width: 45%;
+	float:left;
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;
+	text-align:center;
+}
+#todo #pc2 #txt2{
+	text-align: left;
+}
+#todo #pc2 #cat2{
+	height:12.5em;
+	margin-bottom: 1px;
+	border-bottom: 1.5em;
+	width: 35%;
+}
+#todo #pc3 {
+	padding: 1em;
+	width: 45%;
+	float:left;
+	
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;
+	text-align:center;
+}
+#todo #pc3 #txt3{
+	text-align: left;
+}
+#todo #pc4 {
+	
+	width: 45%;
+	float:left;
+	padding: 1em;
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;
+	text-align:center;
+
+}
+#todo #pc4 #txt4{text-align: left;}
+#todo #pc4 #cat4{
+	height: 300px;
+}
+/**Cada una de las lineas que separan imagen y texto **/
+#todo #pc1 #linea1
+{
+	width: 60%;
+	height: 3px;
+	background-color:white;	
+}
+#todo #pc2 #linea2{
+	width: 60%;
+	height: 3px;
+	background-color:white;	
+}
+#todo #pc3 #linea3{
+	width: 60%;
+	height: 3px;
+	background-color:white;	
+}
+#todo #pc4 #linea4{
+	width: 60%;
+	height: 3px;
+	background-color:white;	
+}
+
+#todo #quienessomos{
+	font-size: 3em;
+	text-align: center;
+	color:rgba(255,255,255,0.8);
+	text-shadow: 2px 2px #999;
+	margin-bottom: 40px;
+}
+#todo #contenidoq {
+
+	color: white;
+	
+	
+}
+#todo #contenidoq #img1q{
+width: 40%;
+float:left;
+margin-right: 20px;
+}
+
+#todo #contenidoq #p1{
+	text-decoration: underline;
+	font-size: 1.6em;
+	text-align: center;
+	margin-left: 1em;
+}
+#todo #contenidoq #p2 {
+	margin-top:1em;
+	font-size: 1.6em;
+    margin-left: 1em;
+}
+#todo #pase2q {
+	color:white;
+	margin-top: 400px;
+	font-size: 1.6em;
+
+}
+ #todo #pase2q #logoq{
+ 	float:right;
+ 	width: 20%;
+ 	margin-right:100px;}
+
+ 	#todo #texto1t #img1t {
+	float:left;
+	margin-right: 20px;
+	
+}
+ #todo #taller{
+	font-size: 3em;
+	text-align: center;
+	color:rgba(255,255,255,0.8);
+	text-shadow: 2px 2px #999;
+	margin-bottom: 40px;
+
+}
+#todo #texto1t{
+	float:right;
+	color:white;
+font-size: 1.6em;
+
+}
+
+#todo #img2t{
+	height:225.5px;
+	float:right;
+	margin-right:50px;
+}
+#todo #texto2t{
+	margin-top:40px;
+	color:white;
+	float:left;
+	width:75%;
+	font-size:1.6em;
+
+
+}
+
+
